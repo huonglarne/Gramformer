@@ -5,6 +5,15 @@
     <img src="./images/GLogov1.png" width="35%" height="35%"/>
 </p>
 
+# Run with Moreh
+        conda create -n gramformer python=3.8
+        pip install -U git+https://github.com/PrithivirajDamodaran/Gramformer.git
+        python -m spacy download en
+        update-moreh --force --target 23.3.0
+        python demo.py
+
+
+
 
 # Gramformer
 
